@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><a [href]="Home"><ion-icon name="arrow-back" style="zoom: 1.5; vertical-align: middle;"></ion-icon></a>
+      Settings
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<center>
+  <p>For any business inquiries/app suggestions, kindly call
+  <br><p><strong><a href="tel:+254712345678" style="text-decoration: none; color: black;">+254712345678</a></strong></p>
+  <p>You can also message me blablabla....</p>
+  <p>SunApp™</p>
+  <p><a href="https://wa.me/+254712345678"><ion-icon name="logo-whatsapp" style="color: #25D366;"></ion-icon></a></p>
+
+
+  <ion-list *ngFor="let item of news">
+    <ion-item>
+      <ion-label>{{item.news}}</ion-label>
+    </ion-item>
+    </ion-list>
+
+<!-- <ion-item>
+  <input type="text" (change)="onNewsChanged($event)" placeholder="Name..." required/>
+</ion-item><br> -->
+</center>
+</ion-content>
+

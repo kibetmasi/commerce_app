@@ -1,0 +1,59 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content, ion-header {
+  --ion-background-color:#e4d3cf;
+
+
+}
+ion-icon, ion-label{
+    color: #a94064;
+    font-weight: bolder;
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:15px;
+	right:15px;
+	background-color:#3498DB;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:8px;
+  zoom: 2.0;
+  vertical-align: middle;  
+}
+
+
